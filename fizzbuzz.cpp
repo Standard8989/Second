@@ -15,6 +15,7 @@ int main() {
             cout << "Buzz" << endl;
         else
             cout << count << endl;
+        count++;
     }
 
     return 0;
