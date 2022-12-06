@@ -7,11 +7,11 @@ int main() {
     int count = 1;
 
     while (true) {
-        if (count % (FIZZ * BUZZ))
+        if (count % (FIZZ * BUZZ)==0)
             cout << "FizzBuzz" << endl;
-        else if (count % FIZZ)
+        else if (count % FIZZ==0)
             cout << "Fizz" << endl;
-        else if (count % BUZZ)
+        else if (count % BUZZ==0)
             cout << "Buzz" << endl;
         else
             cout << count << endl;
